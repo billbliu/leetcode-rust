@@ -2,7 +2,7 @@
  * @Author: bill
  * @Date: 2021-07-02 14:24:45
  * @LastEditors: bill
- * @LastEditTime: 2021-09-14 17:53:35
+ * @LastEditTime: 2021-09-16 17:46:49
  * @Description:
  * @FilePath: /leetcode-rust/src/problems/p0001_two_sum.rs
  */
@@ -30,7 +30,7 @@ mod tests {
     use super::*;
 
     #[test]
-    fn test_1() {
+    fn test_two_sum() {
         assert_eq!(vec![0, 1], Solution::two_sum(vec![2, 7, 11, 15], 9));
         assert_eq!(vec![1, 2], Solution::two_sum(vec![3, 2, 4], 6));
     }

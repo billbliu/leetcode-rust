@@ -2,7 +2,7 @@
  * @Author: bill
  * @Date: 2021-07-02 14:24:45
  * @LastEditors: bill
- * @LastEditTime: 2021-09-14 17:43:11
+ * @LastEditTime: 2021-09-16 17:47:00
  * @Description:
  * @FilePath: /leetcode-rust/src/problems/p0011_container_with_most_water.rs
  */
@@ -29,7 +29,7 @@ mod tests {
     use super::*;
 
     #[test]
-    fn test_11() {
+    fn test_max_area() {
         assert_eq!(49, Solution::max_area(vec![1, 8, 6, 2, 5, 4, 8, 3, 7]));
         assert_eq!(1, Solution::max_area(vec![1, 1]));
         assert_eq!(16, Solution::max_area(vec![4, 3, 2, 1, 4]));

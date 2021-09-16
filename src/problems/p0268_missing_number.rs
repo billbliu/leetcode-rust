@@ -2,7 +2,7 @@
  * @Author: bill
  * @Date: 2021-07-02 14:24:45
  * @LastEditors: bill
- * @LastEditTime: 2021-09-14 17:55:55
+ * @LastEditTime: 2021-09-16 17:47:52
  * @Description:
  * @FilePath: /leetcode-rust/src/problems/p0268_missing_number.rs
  */
@@ -36,7 +36,7 @@ mod tests {
     use super::*;
 
     #[test]
-    fn test_268() {
+    fn test_missing_number() {
         assert_eq!(2, Solution::missing_number(vec![3, 0, 1]));
         assert_eq!(2, Solution::missing_number(vec![0, 1]));
         assert_eq!(8, Solution::missing_number(vec![9, 6, 4, 2, 3, 5, 7, 0, 1]));
@@ -44,7 +44,7 @@ mod tests {
     }
 
     #[test]
-    fn test_268_1() {
+    fn test_missing_number1() {
         assert_eq!(2, Solution::missing_number1(vec![3, 0, 1]));
         assert_eq!(2, Solution::missing_number1(vec![0, 1]));
         assert_eq!(

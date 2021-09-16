@@ -2,7 +2,7 @@
  * @Author: bill
  * @Date: 2021-06-30 18:21:00
  * @LastEditors: bill
- * @LastEditTime: 2021-09-14 17:55:39
+ * @LastEditTime: 2021-09-16 17:47:25
  * @Description:
  * @FilePath: /leetcode-rust/src/problems/p0034_find_first_and_last_position_of_element_in_sorted_array.rs
  */
@@ -137,7 +137,7 @@ mod tests {
     use super::*;
 
     #[test]
-    fn test_34() {
+    fn test_search_range() {
         assert_eq!(
             vec![3, 4],
             Solution::search_range(vec![5, 7, 7, 8, 8, 10], 8)
@@ -149,7 +149,7 @@ mod tests {
     }
 
     #[test]
-    fn test_34_1() {
+    fn test_search_range_1() {
         let solution = Solution {};
         assert_eq!(
             vec![3, 4],
